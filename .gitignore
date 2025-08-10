@@ -1,0 +1,24 @@
+# Node
+node_modules/
+npm-debug.log*
+yarn.lock
+pnpm-lock.yaml
+package-lock.json
+
+# Builds
+build/
+dist/
+.next/
+coverage/
+
+# Env and local
+.env
+.env.*
+.DS_Store
+
+# App-specific
+dashboard/node_modules/
+dashboard/build/
+frontend/node_modules/
+frontend/build/
+backend/node_modules/
