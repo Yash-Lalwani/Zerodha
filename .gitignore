@@ -5,6 +5,9 @@ yarn.lock
 pnpm-lock.yaml
 package-lock.json
 
+# Allow lockfile for the frontend so Render can use `npm ci`
+!frontend/package-lock.json
+
 # Builds
 build/
 dist/
